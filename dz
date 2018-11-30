@@ -1,0 +1,102 @@
+#include "stdafx.h"
+
+#include <cstdlib>
+#include <iostream>
+#include <conio.h>
+#include <windows.h>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+
+	while (true)
+	{
+
+		char note = _getch();
+	//do re mi fa sol la si do re mi fa sol
+	if (note == 'a') {
+		system("cls");
+		cout << "do";
+		Beep(26, 100);
+	}
+	if (note == 's') {
+		system("cls");
+		cout << "re";
+		Beep(293, 100);
+	}
+	if (note == 'd') {
+		system("cls");
+		cout << "mi";
+		Beep(329, 100);
+	}
+	if (note == 'f') {
+		system("cls");
+		cout << "fa";
+		Beep(349, 100);
+	}
+	if (note == 'g') {
+		system("cls");
+		cout << "sol";
+		Beep(392, 100);
+	}
+	if (note == 'h') {
+		system("cls");
+		cout << "la";
+		Beep(440, 100);
+	}
+	if (note == 'j') {
+		system("cls");
+		cout << "si";
+		Beep(493, 100);
+	}
+	if (note == 'k') {
+		Beep(523, 100);
+	}
+	if (note == 'l') {
+		Beep(587, 100);
+	}
+	if (note == ';') {
+		Beep(659, 100);
+	}
+	if (note == '\'') {
+		system("cls");
+		cout << "XYI";
+		Beep(698, 100);
+	}
+	if (note == '\\') {
+		Beep(784, 100);
+	}
+	if (note == 'w') {
+		Beep(277, 100);
+	}
+	if (note == 'e') {
+		Beep(311, 100);
+	}
+	if (note == 't') {
+		Beep(370, 100);
+	}
+	if (note == 'y') {
+		Beep(415, 100);
+	}
+	if (note == 'u') {
+		Beep(466, 100);
+	}
+	if (note == 'o') {
+		Beep(554, 100);
+	}
+	if (note == 'p') {
+		Beep(622, 100);
+	}
+	if (note == ']') {
+		Beep(740, 100);
+	}
+	}
+
+	system("cls");
+}
+
+
+
+
+
